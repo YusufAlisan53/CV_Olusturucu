@@ -1,0 +1,112 @@
+{
+  "name": "Ahmet Yilmaz",
+  "contact": [
+    {
+      "text": "+90 532 100 2030"
+    },
+    {
+      "text": "ahmet.yilmaz@email.com",
+      "url": "mailto:ahmet.yilmaz@email.com"
+    },
+    {
+      "text": "linkedin.com/in/ahmet-yilmaz",
+      "url": "https://www.linkedin.com/in/ahmet-yilmaz/"
+    },
+    {
+      "text": "github.com/ahmetyilmaz",
+      "url": "https://github.com/ahmetyilmaz"
+    }
+  ],
+  "section_titles": {
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Technical Skills"
+  },
+  "education": [
+    {
+      "school": "Istanbul Technical University",
+      "location": "Istanbul, Turkey",
+      "degree": "B.Sc. in Computer Engineering (GPA: 3.48 / 4.00)",
+      "date": "2021 – 2025"
+    },
+    {
+      "school": "Warsaw University of Technology",
+      "location": "Warsaw, Poland",
+      "degree": "Erasmus+ Exchange Program in Computer Science",
+      "date": "Sep 2023 – Feb 2024"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Backend Software Engineer Intern",
+      "date": "Jul 2025 – Sep 2025",
+      "company": "Trendyol Group",
+      "location": "Istanbul, Turkey",
+      "bullets": [
+        "Engineered high-throughput order fulfillment microservices using Go, Spring Boot (Java), and Apache Kafka handling 50K+ RPM.",
+        "Implemented distributed caching strategies with Redis Cluster, reducing average API response latency by 38% across checkout endpoints.",
+        "Designed automated integration and load test suites using Testcontainers and k6 within GitLab CI/CD pipelines."
+      ]
+    },
+    {
+      "title": "Full-Stack Developer Intern",
+      "date": "Jun 2024 – Sep 2024",
+      "company": "ASELSAN",
+      "location": "Ankara, Turkey",
+      "bullets": [
+        "Developed a real-time telemetry monitoring dashboard using React, TypeScript, and .NET 8 Web API with WebSocket streaming.",
+        "Architected role-based access control (RBAC) and audit logging modules adhering to defense-grade security standards.",
+        "Optimized complex PostgreSQL spatial queries with PostGIS indexing, accelerating map layer rendering by 3x."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CloudScale Distributed Task Scheduler",
+      "technologies": "Go, gRPC, Redis, Docker, Kubernetes, Prometheus",
+      "bullets": [
+        "Built a fault-tolerant distributed cron and job queue engine using Raft consensus and gRPC leader-worker heartbeats.",
+        "Exposed real-time Prometheus metrics and Grafana dashboards for worker utilization, queue depth, and retry backoff tracking."
+      ]
+    },
+    {
+      "name": "RAG-Based Legal Document Assistant",
+      "technologies": "Python, FastAPI, LangChain, Qdrant, React, TypeScript",
+      "bullets": [
+        "Developed a Retrieval-Augmented Generation (RAG) pipeline over Turkish legal statutes with hybrid dense/sparse vector search.",
+        "Implemented semantic chunking and citation verification to eliminate hallucinations and link answers to exact article clauses."
+      ]
+    },
+    {
+      "name": "Autonomous Drone Lane & Obstacle Tracker",
+      "technologies": "C++, Python, YOLOv8, OpenCV, ROS2",
+      "bullets": [
+        "Trained a quantized YOLOv8-nano model deployed on NVIDIA Jetson Nano achieving 42 FPS real-time obstacle avoidance.",
+        "Integrated Kalman filtering and optical flow estimation for stable trajectory planning under GPS-denied environments."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": "Go, Java, C#, Python, TypeScript, JavaScript, C++, SQL"
+    },
+    {
+      "category": "Frameworks",
+      "items": "Spring Boot, .NET Core, FastAPI, React.js, Node.js, Express"
+    },
+    {
+      "category": "Developer Tools",
+      "items": "Docker, Kubernetes, Git, GitLab CI/CD, Linux, Postman, Grafana"
+    },
+    {
+      "category": "Databases & Messaging",
+      "items": "PostgreSQL, Redis, MongoDB, Apache Kafka, RabbitMQ, Qdrant"
+    },
+    {
+      "category": "Architecture",
+      "items": "Microservices, Event-Driven Architecture, Clean Architecture, gRPC, REST, JWT/OAuth2"
+    }
+  ]
+}

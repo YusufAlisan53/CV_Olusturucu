@@ -1,0 +1,129 @@
+{
+  "name": "Yusuf Talha Alisan",
+  "contact": [
+    {
+      "text": "+90 553 740 4838"
+    },
+    {
+      "text": "y.alisan53@gmail.com",
+      "url": "mailto:y.alisan53@gmail.com"
+    },
+    {
+      "text": "linkedin.com/in/yusuf-talha-alisan",
+      "url": "https://www.linkedin.com/in/yusuf-talha-alisan/"
+    },
+    {
+      "text": "github.com/YusufAlisan53",
+      "url": "https://github.com/YusufAlisan53"
+    }
+  ],
+  "section_titles": {
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Technical Skills"
+  },
+  "education": [
+    {
+      "school": "Fırat University",
+      "location": "Elazığ, Turkey",
+      "degree": "B.Sc. in Computer Engineering",
+      "date": "2021 – Present"
+    },
+    {
+      "school": "Anadolu University",
+      "location": "Eskisehir, Turkey",
+      "degree": "B.Sc. in Management Information Systems",
+      "date": "2026 – Present"
+    },
+    {
+      "school": "Anadolu University",
+      "location": "Eskisehir, Turkey",
+      "degree": "Associate Degree in Web Design & Coding",
+      "date": "Graduated 2026"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Computer Engineering Intern",
+      "date": "Aug 2025 – Sep 2025",
+      "company": "EHSİM (Defense Industry)",
+      "location": "Ankara, Turkey",
+      "bullets": [
+        "Developed MeetSync, a corporate Meeting and Room Reservation Platform using .NET Core (C#), React, and TypeScript.",
+        "Architected the backend adopting Clean Architecture with CQRS and Mediator layers for strict separation of concerns.",
+        "Engineered time-conflict prevention algorithms to manage real-time room availability and eliminate overlapping reservations.",
+        "Implemented role-based authorization with JWT and refresh token management integrated via Axios Interceptors."
+      ]
+    },
+    {
+      "title": "Computer Engineering Intern",
+      "date": "Sep 2024",
+      "company": "ÇAYKUR (General Directorate of Tea Enterprises)",
+      "location": "Rize, Turkey",
+      "bullets": [
+        "Developed HemenOto, an end-to-end commercial truck rental management application using ASP.NET Core API.",
+        "Built upon Onion Architecture, enforcing strict dependency inversion across Presentation, Application, Domain, and Infrastructure layers.",
+        "Applied CQRS and Mediator pattern to decouple read/write operations and streamline cross-layer communication.",
+        "Designed the relational database schema in MSSQL and integrated real-time data synchronization via SignalR."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Turkish Named Entity Recognition",
+      "technologies": "Python, HuggingFace Transformers, Flask",
+      "bullets": [
+        "Deployed bert-base-turkish-ner-cased (HuggingFace Transformers) via a Flask REST API, enabling real-time NER across 19 fine-grained entity categories.",
+        "Engineered a custom TDK-compliant post-processing layer using rule-based logic and context analysis to correct and filter model predictions."
+      ]
+    },
+    {
+      "name": "Central Hospital Appointment System",
+      "technologies": "PostgreSQL, Node.js, Express, React, TypeScript, Prisma ORM",
+      "bullets": [
+        "Architected a PostgreSQL schema with triggers, views, and index constraints to automate doctor scheduling and prevent appointment overlaps.",
+        "Built a full-stack clinical management platform featuring role-based access control, medical record tracking, and real-time availability filters.",
+        "Engineered optimized database views and SQL aggregation pipelines for department analytics, daily visit logs, and digital prescription history."
+      ]
+    },
+    {
+      "name": "Cross-Eyed Test",
+      "technologies": "Python, OpenCV, MediaPipe, NumPy",
+      "bullets": [
+        "Built a real-time strabismus detector using MediaPipe FaceLandmarker, computing normalized 3D iris-to-corner ratios across 478 facial landmarks.",
+        "Implemented a hysteresis frame-buffer to debounce rapid eye movements and prevent false positives in the detection pipeline."
+      ]
+    },
+    {
+      "name": "LAN Games",
+      "technologies": "Node.js, Express, Socket.io, HTML5 Canvas",
+      "bullets": [
+        "Built a browser-based 2D multiplayer tank game with 3 game modes (FFA, Team DM, CTF), 4 maps, and a weapon/killstreak system.",
+        "Implemented client-side prediction and interpolation with binary Socket.io transfers and a custom AABB collision and ricochet physics engine."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": "C#, Python, JavaScript, TypeScript, SQL"
+    },
+    {
+      "category": "Frameworks",
+      "items": ".NET Core, ASP.NET Core API, React.js, Node.js, Express, Flask"
+    },
+    {
+      "category": "Developer Tools",
+      "items": "Git, GitHub, Visual Studio, VS Code, Postman"
+    },
+    {
+      "category": "Libraries",
+      "items": "Entity Framework Core, SignalR, PyTorch, Transformers, OpenCV, MediaPipe"
+    },
+    {
+      "category": "Architecture",
+      "items": "Clean Architecture, Onion Architecture, CQRS, Mediator Pattern, JWT/RBAC"
+    }
+  ]
+}
